@@ -58,7 +58,7 @@ public class ItemController1 implements Controller {
 //		request.setAttribute("itemsList", itemsList);
 		modelAndView.addObject("itemsList", itemsList);
 		//指定转发的jsp页面
-		modelAndView.setViewName("/WEB-INF/jsp/itemsList.jsp");
+		modelAndView.setViewName("itemsList");
 		return modelAndView;
 	}
 
